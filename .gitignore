@@ -1,0 +1,7 @@
+# SSH秘密鍵を除外
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.*
+Ranranru1
