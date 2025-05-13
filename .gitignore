@@ -6,5 +6,5 @@ id_rsa
 id_rsa.*
 Ranranru1
 .terraform/
-*.tfstate
+terraform.tfstate
 *.tfstate.backup
