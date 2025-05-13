@@ -2,6 +2,7 @@
 *.pem
 *.key
 *.pub
+.envrc
 id_rsa
 id_rsa.*
 Ranranru1
