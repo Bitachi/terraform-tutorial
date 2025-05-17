@@ -50,7 +50,7 @@ resource "aws_security_group_rule" "ingress_pub_a_22" {
 
     #許可するIPの範囲を設定
     #自身のグローバルIPを記入
-    cidr_blocks = ["133.32.130.0/32"]
+    cidr_blocks = ["210.130.235.134/32"]
 
     #このルールを付与するセキュリティグループを設定
     security_group_id = aws_security_group.pub_a.id
@@ -71,7 +71,7 @@ resource "aws_security_group_rule" "ingress_pub_a_80" {
 
     #許可するIPの範囲を設定
     #自身のグローバルIPを記入
-    cidr_blocks = ["133.32.130.0/32"]
+    cidr_blocks = ["210.130.235.134/32"]
 
     #このルールを付与するセキュリティグループを設定
     security_group_id = aws_security_group.pub_a.id
